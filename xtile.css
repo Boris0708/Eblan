@@ -9,8 +9,7 @@ body{
     background-image: url(./img/photooboi-fon-textura-dereva-520814221.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    margin-left: 150px;
+   
     
     
 }
@@ -29,8 +28,10 @@ ul {list-style: none;}
 .nav{
     width: 1200px;
     position: relative;
-    left: 0;
-    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+   position: relative;
+
     
     background-color:#3a57bc;
 }
@@ -45,14 +46,36 @@ ul {list-style: none;}
     display: flex;
 
 }
+.logob{
+    size: 10px;
+    background-color: #AFB1B8;
+    border: 3px solid rgb(46, 211, 13);
+    font-size: 20px;
+    line-height: 130%;
+    border-radius: 20px;
+    padding: 2px 4px;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
 .logo1{
+    color: blue;
+}
+.logo1b{
     color: blue;
 }
 .logo2{
     color: red;
 }
+.logo2b{
+    color: red;
+}
 .logo:hover{background-color: rgb(21, 11, 87);}
+.logob:hover{background-color: rgb(32, 179, 216);
+border: 3px solid white;}
 .logo:hover .logo1{color: yellow;}
+.logob:hover .logo1b{color: yellow; }
+.logob:hover .logo2b{color: pink;}
 .hader2{
     display: flex;
     flex-flow: row nowrap;
@@ -94,9 +117,10 @@ ul {list-style: none;}
 .div1{
     width: 1200px;
     position: relative;
-    left: 0;
-    right: 0;
-    margin-top: 10px;
+     margin-left: auto;
+    margin-right: auto;
+   
+    
     
 }
 .div2{
@@ -130,6 +154,9 @@ ul {list-style: none;}
 .section1{
     background-image: url(./img/stolyar.jpg);
     height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+   position: relative;
 
     width: 1200px;
     position: relative;
@@ -160,8 +187,9 @@ ul {list-style: none;}
     background-color:#AFB1B8 ;
     position: relative;
     padding-top: 40px;
-    position: relative;
     height: 410px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .section21{
     
@@ -188,7 +216,7 @@ ul {list-style: none;}
     display: flex;
     flex-flow: row nowrap;
     width: 1200px;
-    justify-content: space-between
+    justify-content: space-around
     
 }
 .foto1{
@@ -197,13 +225,7 @@ ul {list-style: none;}
     display: flex;
     
 }
-.footer{ 
-    display:flex;
-    height: 350px;
-    width: 1200px;
-    
-    
-}
+
 
 .sectionP{
     background-color:#AFB1B8 ;
@@ -211,7 +233,9 @@ ul {list-style: none;}
     height: 200px;
     padding: 30px 0px;
     display: flex;
-    align-items: center
+    margin-left: auto;
+    margin-right: auto;
+   position: relative;
     
 }
 .fotop{
@@ -284,6 +308,9 @@ ul {list-style: none;}
     height: 350px;
     position: relative;
     background-color: #AFB1B8;
+    margin-left: auto;
+    margin-right: auto;
+  
 }
 .sectionPR{
     width: 1200px;
@@ -293,6 +320,9 @@ ul {list-style: none;}
     position: relative;
     height: 300px;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+   
 }
 .foto2{
     width: 230px;
@@ -302,3 +332,31 @@ ul {list-style: none;}
 .foto4{
     box-shadow: 1px 1px 1px black;
 }
+.footer{ 
+    display:flex;
+    height: 120px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+.svgft{
+    display: flex;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+    justify-content: space-between;
+    background-color: rgba(248, 248, 248, 0.249);
+    border-radius: 30px;
+}
+.svg1ft{
+    background-color: rgb(70, 70, 247);
+    border-radius: 100%;
+    padding: 8px;
+    
+}
+.svg3ft{
+    fill: #FFFFFF;
+}
+.svg1ft:hover { background-color: white;}
+.svg1ft:hover .svg3ft{fill: blue;}
