@@ -31,6 +31,7 @@ ul {list-style: none;}
     position: relative;
     left: 0;
     right: 0;
+    
     background-color:#3a57bc;
 }
 .logo{
@@ -50,7 +51,7 @@ ul {list-style: none;}
 .logo2{
     color: red;
 }
-.logo:hover{background-color: rgb(34, 0, 255);}
+.logo:hover{background-color: rgb(21, 11, 87);}
 .logo:hover .logo1{color: yellow;}
 .hader2{
     display: flex;
