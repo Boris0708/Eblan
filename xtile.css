@@ -9,8 +9,6 @@ body{
     background-image: url(./img/photooboi-fon-textura-dereva-520814221.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    margin-left: 150px;
     
     
 }
@@ -28,10 +26,9 @@ ul {list-style: none;}
 }
 .nav{
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    left: 0;
-    right: 0;
-    margin-top: 10px;
     background-color:#3a57bc;
 }
 .logo{
@@ -43,6 +40,7 @@ ul {list-style: none;}
     border-radius: 20px;
     padding: 2px 4px;
     display: flex;
+    width: 65px;
 
 }
 .logo1{
@@ -53,6 +51,28 @@ ul {list-style: none;}
 }
 .logo:hover{background-color: rgb(34, 0, 255);}
 .logo:hover .logo1{color: yellow;}
+.logop{
+    size: 10px;
+    background-color: #AFB1B8;
+    border: 3px solid black;
+    font-size: 20px;
+    line-height: 130%;
+    border-radius: 20px;
+    padding: 2px 4px;
+    display: flex;
+    width: 65px;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+.logo1p{
+    color: blue;
+}
+.logo2p{
+    color: red;
+}
+.logop:hover{background-color: rgb(34, 0, 255);}
+.logop:hover .logo1p{color: yellow;}
 .hader2{
     display: flex;
     flex-flow: row nowrap;
@@ -93,10 +113,10 @@ ul {list-style: none;}
 }
 .div1{
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    left: 0;
-    right: 0;
-    margin-top: 10px;
+    
     
 }
 .div2{
@@ -132,6 +152,8 @@ ul {list-style: none;}
     height: 500px;
 
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
 }
 .button{
@@ -158,8 +180,9 @@ ul {list-style: none;}
 .section2{
     width: 1200px;
     background-color:#AFB1B8 ;
-    position: relative;
     padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     height: 410px;
 }
@@ -184,11 +207,13 @@ ul {list-style: none;}
 .foto{
     margin: 0;
     display: block;
-    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
     display: flex;
     flex-flow: row nowrap;
     width: 1200px;
-    justify-content: space-between
+    justify-content: space-around
     
 }
 .foto1{
@@ -197,21 +222,18 @@ ul {list-style: none;}
     display: flex;
     
 }
-.footer{ 
-    display:flex;
-    height: 350px;
-    width: 1200px;
-    
-    
-}
+
 
 .sectionP{
     background-color:#AFB1B8 ;
     width: 1200px;
-    height: 200px;
-    padding: 30px 0px;
+    height: 205px;
+    padding-bottom: 30px;
     display: flex;
-    align-items: center
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
     
 }
 .fotop{
@@ -232,6 +254,9 @@ ul {list-style: none;}
 .section{
     background-color:#AFB1B8 ;
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
     
     padding: 30px 0px;
     display: flex;
@@ -282,14 +307,17 @@ ul {list-style: none;}
 .sectionP1{
     width: 1200px;
     height: 350px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     background-color: #AFB1B8;
 }
 .sectionPR{
     width: 1200px;
     background-color:#AFB1B8 ;
-    position: relative;
-    padding-top: 40px;
+    
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     height: 300px;
     display: flex;
@@ -301,4 +329,42 @@ ul {list-style: none;}
 }
 .foto4{
     box-shadow: 1px 1px 1px black;
+}
+.svgft{
+    display: block;
+
+        align-items: center;
+        margin: auto;
+        padding: 0%;
+        display: flex;
+        width: 210px;
+        height: 45px;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-left: 30px;
+        
+}
+.svg1ft{
+    display: block;
+        padding: 8px;
+        border-radius: 50%;
+        background-color: rgb(249, 243, 243)
+}
+.svg1ft:hover {
+    background-color:#2196F3 ;
+
+}
+.svg3ft{
+    fill: #2196F3 ;
+} 
+.svg1ft:hover .svg3ft{ fill: #FFFFFF;}
+.footer{ 
+    display:flex;
+    height: 150px;
+    width: 1200px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
 }
